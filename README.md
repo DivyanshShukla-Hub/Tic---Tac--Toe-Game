@@ -95,11 +95,11 @@ let see my code
     return freeSpaces;
     }
 
-/**
- * @brief Handles the logic for a player's turn.
- * @param player The current player ('X' or 'O').
- */
-void playerMove(char player) {
+     /**
+    * @brief Handles the logic for a player's turn.
+    * @param player The current player ('X' or 'O').
+     */
+    void playerMove(char player) {
     int choice;
     int row, col;
 
