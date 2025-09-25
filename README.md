@@ -71,7 +71,7 @@ let see my code
     printf(" Tic Tac Toe\n");
     printf("---|---|---\n");
     for (int i = 0; i < 3; i++) {
-        printf(" %c | %c | %c ", board[i][0], board[i][1], board[i][2]);
+         printf(" %c | %c | %c ", board[i][0], board[i][1], board[i][2]);
         if (i < 2) {
              printf("\n---|---|---\n");
         }
