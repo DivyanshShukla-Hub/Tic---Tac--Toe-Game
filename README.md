@@ -120,13 +120,13 @@ let see my code
             break;
         }
     } while (1); // Loop until a valid move is made
-}
+    }
 
-/**
- * @brief Checks all win conditions (rows, columns, diagonals).
- * @return The character of the winner ('X' or 'O'), or ' ' if no winner yet.
- */
-char checkWinner() {
+     /**
+    * @brief Checks all win conditions (rows, columns, diagonals).
+    * @return The character of the winner ('X' or 'O'), or ' ' if no winner yet.
+     */
+    char checkWinner() {
     // Check rows
     for (int i = 0; i < 3; i++) {
         if (board[i][0] == board[i][1] && board[i][1] == board[i][2]) {
@@ -148,16 +148,18 @@ char checkWinner() {
     }
 
     return ' '; // No winner
-}
+    }
 
-/**
- * @brief Prints the final result of the game.
- * @param winner The winning player, or ' ' for a draw.
- */
-void printWinner(char winner) {
+    /**
+    * @brief Prints the final result of the game.
+     * @param winner The winning player, or ' ' for a draw.
+      */
+     void printWinner(char winner) {
     if (winner == PLAYER_X || winner == PLAYER_O) {
         printf("Player %c wins! Congratulations!\n", winner);
     } else {
         printf("It's a draw! Good game.\n");
     }
-}
+    }
+  THANK YOU FOOR READING
+  DIVYANSH SHUKLA
