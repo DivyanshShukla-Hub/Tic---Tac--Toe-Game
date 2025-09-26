@@ -6,7 +6,7 @@ let see my code
 
     // Global array to represent the game board
       char board[3][3];
-
+   
     // Constants for players
     const char PLAYER_X = 'X';
     const char PLAYER_O = 'O';
