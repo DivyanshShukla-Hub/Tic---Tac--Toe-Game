@@ -17,7 +17,7 @@ let see my code
       int checkFreeSpaces();
       void playerMove(char player);
       char checkWinner();
-     void printWinner(char winner);
+     void printWinner(char winner); 
 
 
     int main() {
