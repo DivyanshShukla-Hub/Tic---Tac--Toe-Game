@@ -2,7 +2,7 @@
 let see my code
 
       #include <stdio.h>
-     #include <stdlib.h>
+     #include <stdlib.h> 
 
     // Global array to represent the game board
       char board[3][3];
