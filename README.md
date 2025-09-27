@@ -9,7 +9,6 @@ let see my code
     const char PLAYER_X = 'X';
     const char PLAYER_O = 'O';
 
-    // --- Function Prototypes ---
     void resetBoard();
     void printBoard();
       int checkFreeSpaces();
@@ -23,11 +22,10 @@ let see my code
     
     resetBoard();
 
-    // Main game loop
     while (winner == ' ' && checkFreeSpaces() != 0) {
         printBoard();
         
-        // Player X's turn
+        
         playerMove(PLAYER_X);
         winner = checkWinner();
         if (winner != ' ' || checkFreeSpaces() == 0) {
@@ -36,7 +34,6 @@ let see my code
 
         printBoard();
 
-        // Player O's turn
         playerMove(PLAYER_O);
         winner = checkWinner();
         if (winner != ' ' || checkFreeSpaces() == 0) {
@@ -50,9 +47,7 @@ let see my code
     return 0;
      }
 
-    /**
-    * @brief Initializes the board with numbers 1-9.
-    */
+    
     void resetBoard() {
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
@@ -61,9 +56,7 @@ let see my code
     }
     }
 
-    /**
-    * @brief Prints the current state of the game board.
-    */
+  
     void printBoard() {
     printf("\n");
     printf(" Tic Tac Toe\n");
