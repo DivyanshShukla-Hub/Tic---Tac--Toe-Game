@@ -70,10 +70,7 @@ let see my code
     printf("\n\n");
     }
 
-    /**
-    * @brief Counts the number of empty spaces left on the board.
-    * @return The number of free spaces.
-     */
+
     int checkFreeSpaces() {
     int freeSpaces = 9;
     for (int i = 0; i < 3; i++) {
@@ -86,10 +83,7 @@ let see my code
     return freeSpaces;
     }
 
-     /**
-    * @brief Handles the logic for a player's turn.
-    * @param player The current player ('X' or 'O').
-     */
+
     void playerMove(char player) {
     int choice;
     int row, col;
@@ -98,7 +92,7 @@ let see my code
         printf("Player %c, enter a number (1-9): ", player);
         scanf("%d", &choice);
 
-        // Convert choice (1-9) to 2D array coordinates (0-2)
+       
         row = (choice - 1) / 3;
         col = (choice - 1) % 3;
 
@@ -113,10 +107,7 @@ let see my code
     } while (1); // Loop until a valid move is made
     }
 
-     /**
-    * @brief Checks all win conditions (rows, columns, diagonals).
-    * @return The character of the winner ('X' or 'O'), or ' ' if no winner yet.
-     */
+   
     char checkWinner() {
     // Check rows
     for (int i = 0; i < 3; i++) {
@@ -124,13 +115,12 @@ let see my code
             return board[i][0];
         }
     }
-    // Check columns
     for (int i = 0; i < 3; i++) {
         if (board[0][i] == board[1][i] && board[1][i] == board[2][i]) {
             return board[0][i];
         }
     }
-    // Check diagonals
+
     if (board[0][0] == board[1][1] && board[1][1] == board[2][2]) {
         return board[0][0];
     }
@@ -141,10 +131,7 @@ let see my code
     return ' '; // No winner
     }
 
-    /**
-    * @brief Prints the final result of the game.
-     * @param winner The winning player, or ' ' for a draw.
-      */
+  
      void printWinner(char winner) {
     if (winner == PLAYER_X || winner == PLAYER_O) {
         printf("Player %c wins! Congratulations!\n", winner);
