@@ -3,11 +3,9 @@ let see my code
 
       #include <stdio.h>
      #include <stdlib.h> 
-
-    // Global array to represent the game board
+    
       char board[3][3];
    
-    // Constants for players  
     const char PLAYER_X = 'X';
     const char PLAYER_O = 'O';
 
