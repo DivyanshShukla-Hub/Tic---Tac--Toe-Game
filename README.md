@@ -109,7 +109,7 @@ let see my code
 
    
     char checkWinner() {
-    // Check rows
+   
     for (int i = 0; i < 3; i++) {
         if (board[i][0] == board[i][1] && board[i][1] == board[i][2]) {
             return board[i][0];
@@ -128,7 +128,7 @@ let see my code
         return board[0][2];
     }
 
-    return ' '; // No winner
+    return ' '; 
     }
 
   
@@ -139,5 +139,6 @@ let see my code
         printf("It's a draw! Good game.\n");
     }
     }
+    
   THANK YOU FOOR READING
   DIVYANSH SHUKLA
