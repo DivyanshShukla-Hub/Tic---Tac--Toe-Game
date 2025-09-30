@@ -13,7 +13,7 @@ let see my code
     void printBoard();
       int checkFreeSpaces();
       void playerMove(char player);
-      char checkWinner();
+      char checkWinner(); 
      void printWinner(char winner); 
 
  
