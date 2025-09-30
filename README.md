@@ -76,7 +76,7 @@ let see my code
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
             if (board[i][j] == PLAYER_X || board[i][j] == PLAYER_O) {
-                freeSpaces--;
+                freeSpaces--; 
             }
         }
     }
