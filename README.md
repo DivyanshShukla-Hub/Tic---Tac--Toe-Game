@@ -17,7 +17,7 @@ let see my code
      void printWinner(char winner); 
 
  
-    int main() {
+    int main() { 
     char winner = ' ';
     
     resetBoard();
