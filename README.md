@@ -7,7 +7,7 @@ let see my code
     
       char board[3][3];
    
-    const char PLAYER_X = 'X';
+    const char PLAYER_X = 'X'; 
     const char PLAYER_O = 'O';
 
     void resetBoard();
