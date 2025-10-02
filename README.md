@@ -4,7 +4,7 @@
 
       #include <stdio.h>
      #include <stdlib.h> 
-    
+     
       char board[3][3];
    
     const char PLAYER_X = 'X'; 
