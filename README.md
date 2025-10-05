@@ -2,7 +2,7 @@
 
  let see my code 
 
-      #include <stdio.h>
+     #include <stdio.h>
      #include <stdlib.h> 
      
       char board[3][3];
