@@ -13,7 +13,7 @@
     void resetBoard();
     void printBoard();
       int checkFreeSpaces();
-      void playerMove(char player);
+      void playerMove(char player); 
       char checkWinner(); 
      void printWinner(char winner); 
 
